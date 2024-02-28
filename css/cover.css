@@ -13,7 +13,7 @@
 @font-face {
   font-family: 'NanumMyeongjo-b';
   src: url('../font/NanumMyeongjo-Bold.ttf') format('truetype');
-}ㅊ
+}
 @font-face {
   font-family: 'DancingScript-b';
   src: url('../font/DancingScript-Bold.ttf') format('truetype');
@@ -346,9 +346,9 @@ header {
 
 .section5-table tr .check{
   color: white;
-  background-color: chocolate;
+  background-color: #ffffff;
   border-radius: 50px;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.1em;
 }
 
 .section5-table tr:first-child td{
