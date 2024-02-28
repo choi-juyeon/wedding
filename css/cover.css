@@ -18,6 +18,10 @@
   font-family: 'DancingScript-b';
   src: url('../font/DancingScript-Bold.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'JejuMJ';
+  src: url('../font/JEJUMYEONGJO.TTF') format('truetype');
+}
 
 /* Links */
 a,
