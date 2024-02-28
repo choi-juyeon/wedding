@@ -347,15 +347,15 @@ header {
 .section5-table tr .check{
   color: white;
   background-color: chocolate;
-  border-radius: 60px;
+  border-radius: 100px;
 }
 
 .section5-table tr:first-child td{
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .section5-table tr:last-child td{
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 .section6-title {
