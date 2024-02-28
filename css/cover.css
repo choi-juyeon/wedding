@@ -329,7 +329,7 @@ header {
 
 .section5-table {
   font-family: NanumMyeongjo-r;
-  line-height: 1.5em;
+  line-height: 1.0em;
   font-size: 1.3rem;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -347,7 +347,7 @@ header {
 .section5-table tr .check{
   color: white;
   background-color: pink;
-  border-radius: 0.5em;
+  border-radius: 60%;
   padding-bottom: 0.1em;
 }
 
