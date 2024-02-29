@@ -514,7 +514,9 @@ header {
 .foldable-button.pink {
    background-color: #FF99CC;
 }
-
+.foldable-button.in{
+	  color: #333;
+}
 .copy-icon {
     cursor: pointer;
     width: 20px;
