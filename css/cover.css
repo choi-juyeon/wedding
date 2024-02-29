@@ -333,11 +333,13 @@ header {
   font-size: 1.3rem;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+	
 }
 
 .section5-table tr td{
   padding-top: 0.8em;
   padding-bottom: 0.8em;
+  text-align:center
 }
 
 .section5-table tr .sun{
