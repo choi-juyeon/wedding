@@ -276,6 +276,65 @@
             <br/><br/>
         </div>
         <br/><br/>
+
+            <div class="foldable">
+        <div class="foldable-header">
+            <span class="foldable-button">신랑측</span>
+        </div>
+        <div class="foldable-content">
+            <p>신&nbsp&nbsp&nbsp&nbsp&nbsp랑 최병근&nbsp&nbsp<img src="img/copyicon.png" class="copy-icon" alt="복사" data-text="새마을금고 9003237574468"></p>
+            <p>신랑父 최용석&nbsp&nbsp <img src="copy_icon.png" class="img/copyicon.png" alt="복사" data-text="농협 20708656023319"></p>
+            <p>신랑母 이경숙&nbsp&nbsp <img src="copy_icon.png" class="img/copyicon.png" alt="복사" data-text="농협 207081522200141"></p>
+        </div>
+    </div>
+
+    <div class="foldable">
+        <div class="foldable-header">
+            <span class="foldable-button pink">신부측</span>
+        </div>
+        <div class="foldable-content">
+            <p>신&nbsp&nbsp&nbsp&nbsp&nbsp부 최민경&nbsp&nbsp<img src="img/copyicon.png" class="copy-icon" alt="복사" data-text="국민은행 96738256353"></p>
+            <p>신부父 최해근&nbsp&nbsp <img src="copy_icon.png" class="img/copyicon.png" alt="복사" data-text="농협 3521123494643"></p>
+            <p>신부母 성미애&nbsp&nbsp <img src="copy_icon.png" class="img/copyicon.png" alt="복사" data-text="부산은행 068020240821"></p>
+        </div>
+    </div>
+
+    <script>
+        // 접기 버튼을 클릭할 때 텍스트를 접거나 펼칩니다.
+        document.querySelectorAll('.foldable-button').forEach(function(button) {
+            button.addEventListener('click', function() {
+                var content = this.parentNode.nextElementSibling;
+                content.style.display = content.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+
+        // 이미지를 클릭하여 텍스트를 복사하는 기능을 추가합니다.
+        document.querySelectorAll('.copy-icon').forEach(function(icon) {
+            icon.addEventListener('click', function() {
+                // 해당 이미지의 데이터 속성인 data-text로부터 복사할 텍스트를 가져옵니다.
+                var textToCopy = this.getAttribute('data-text');
+
+                // 복사할 텍스트를 임시로 담을 textarea 엘리먼트를 생성합니다.
+                var textarea = document.createElement('textarea');
+                textarea.style.position = 'fixed';
+                textarea.style.opacity = 0;
+                textarea.value = textToCopy;
+                document.body.appendChild(textarea);
+
+                // 텍스트를 클립보드에 복사합니다.
+                textarea.select();
+                document.execCommand('copy');
+
+                // textarea를 제거합니다.
+                document.body.removeChild(textarea);
+
+                // 복사 완료 메시지를 표시합니다.
+                alert('텍스트가 성공적으로 복사되었습니다.');
+            });
+        });
+    </script>
+        <br/><br/>
+        
         <div class="wow fadeInUp section5 inner cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <br/>
             <p class="section5-title section5-main">Date</p>
