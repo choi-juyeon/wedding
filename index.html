@@ -33,6 +33,19 @@
             }
         }
     </style>
+    <!-- CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+    <script>
+  $(function(){
+    var clipboard = new ClipboardJS('#copy');
+    clipboard.on('success', function(e) {
+      alert("복사되었습니다.");
+    });
+    clipboard.on('error', function(e) {
+      alert("복사에 실패했습니다.");
+    });
+});
+</script>
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
@@ -237,9 +250,9 @@
                             </button>
                         </div>
                         <div class="modal-body section7-modal section7-modal-content">
-                            신랑 최병근 / 새마을금고 9003237574468<br/>
-                            혼주 최용석 / 농협 20708656023319<br/>
-                            혼주 이경숙 / 농협 207081522200141
+                            신랑 최병근<input type="button" id="copy" value="계좌복사" data-clipboard-text="새마을금고 9003237574468"/><br/>
+                            혼주 최용석<input type="button" id="copy" value="계좌복사" data-clipboard-text="농협 20708656023319"/><br/>
+                            혼주 이경숙<input type="button" id="copy" value="계좌복사" data-clipboard-text="207081522200141"/>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
