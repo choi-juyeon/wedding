@@ -33,19 +33,7 @@
             }
         }
     </style>
-    <!-- CDN -->
-    <script type="text/javascript" src="js/clipboard.min.js"></script>
-    <script>
-  $(function(){
-    var clipboard = new ClipboardJS('#copy');
-    clipboard.on('success', function(e) {
-      alert("복사되었습니다.");
-    });
-    clipboard.on('error', function(e) {
-      alert("복사에 실패했습니다.");
-    });
-});
-</script>
+
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
@@ -250,46 +238,9 @@
                             </button>
                         </div>
                         <div class="modal-body section7-modal section7-modal-content">
-                                <div>
-        <p>신랑
-        <button class="copyButton" data-text="새마을금고 9003237574468">계좌복사</button></p>
-    </div>
-    <div>
-        <p>신랑혼주 父
-        <button class="copyButton" data-text="농협 20708656023319">계좌복사</button></p>
-    </div>
-    <div>
-        <p>신랑혼주 母
-        <button class="copyButton" data-text="농협 207081522200141">계좌복사</button></p>
-    </div>
-
-    <script>
-        // 각 버튼을 찾아 클릭 이벤트를 추가합니다.
-        var copyButtons = document.querySelectorAll('.copyButton');
-        copyButtons.forEach(function(button) {
-            button.addEventListener('click', function() {
-                // 해당 버튼의 데이터 속성인 data-text로부터 복사할 텍스트를 가져옵니다.
-                var textToCopy = this.getAttribute('data-text');
-
-                // 복사할 텍스트를 임시로 담을 textarea 엘리먼트를 생성합니다.
-                var textarea = document.createElement('textarea');
-                textarea.style.position = 'fixed';
-                textarea.style.opacity = 0;
-                textarea.value = textToCopy;
-                document.body.appendChild(textarea);
-
-                // 텍스트를 클립보드에 복사합니다.
-                textarea.select();
-                document.execCommand('copy');
-
-                // textarea를 제거합니다.
-                document.body.removeChild(textarea);
-
-                // 복사 완료 메시지를 표시합니다.
-                alert('텍스트가 성공적으로 복사되었습니다.');
-            });
-        });
-    </script>
+                            신랑 최병근 / 새마을금고 9003237574468<br/>
+                            혼주 최용석 / 농협 20708656023319<br/>
+                            혼주 이경숙 / 농협 207081522200141
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
