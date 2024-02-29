@@ -515,6 +515,8 @@ header {
    background-color: #FF99CC;
 }
 .foldable-text{
+	  font-family: NanumMyeongjo-b
+	  line-height: 1.5em;
 	  color: #333;
 }
 .copy-icon {
