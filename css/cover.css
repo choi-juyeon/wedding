@@ -257,7 +257,7 @@ header {
   font-family: DancingScript-b;
   line-height: 1.5em;
   font-size: 2rem;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 4em;
 }
 
@@ -361,7 +361,7 @@ header {
 }
 
 .section6-title {
-  margin-top: 2em;
+  margin-top: 4em;
   color: #333;
   text-shadow: none;
 }
