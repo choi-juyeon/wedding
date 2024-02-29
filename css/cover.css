@@ -422,10 +422,10 @@ header {
   font-size: 1.4rem;
 }
 
-.section7-button {
+.section7-button1 {
   font-family: NanumMyeongjo-b;
   font-size: 1.2rem;
-  background-color: #CC9999;
+  background-color: #55CCCC;
   color: #fff;
   border: 0;
   border-radius: 50px;
@@ -434,24 +434,52 @@ header {
   margin-bottom: 0.7em;
 }
 
-.section7-button:hover {
-  background-color: #CC9999;
+.section7-button1:hover {
+  background-color: #55CCCC;
   color: #fff;
   border: 0;
 }
 
-.section7-button:active {
-  background-color: #996666;
+.section7-button1:active {
+  background-color: #30C2C2;
   color: #fff;
   border: 0;
 }
 
-.section7-button:valid {
-  background-color: #CC9999;
+.section7-button1:valid {
+  background-color: #55CCCC;
+  color: #fff;
+  border: 0;
+}
+.section7-button2 {
+  font-family: NanumMyeongjo-b;
+  font-size: 1.2rem;
+  background-color: #FF99CC;
+  color: #fff;
+  border: 0;
+  border-radius: 50px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.7em;
+}
+
+.section7-button2:hover {
+  background-color: #FF99CC;
   color: #fff;
   border: 0;
 }
 
+.section7-button2:active {
+  background-color: #F573B5;
+  color: #fff;
+  border: 0;
+}
+
+.section7-button2:valid {
+  background-color: #FF99CC;
+  color: #fff;
+  border: 0;
+}
 .section8 {
   background-color: #f9f9f9;
 }
