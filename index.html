@@ -1,97 +1,96 @@
-<!doctype html>
+<!docytype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi=medium-dpi">
-    <meta name="description" content="최병근 ❤️ 최민경 결혼식에 초대합니다.">
-    <meta name="author" content="choi">
-    <meta name="generator" content="Jekyll v4.1.1">
-    <meta property="og:url" content="https://choi-juyeon.github.io/wedding.github.io/" />
-    <meta property="og:title" content="최병근 ❤️ 최민경 결혼식에 초대합니다." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://choi-juyeon.github.io/wedding.github.io/img/main.jpg" />
-    <meta property="og:image:width" content="552" />
-    <meta property="og:image:height" content="800" />
-    <meta property="og:description" content="사랑으로 물들어가는 계절, 연인에서 부부라는 이름으로 평생을 함께 하고자 합니다." />
-    <meta name="format-detection" content="telephone=no" />
-    <title>최병근❤️최민경 의 모바일 청첩장</title>
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
+<머리>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=기기폭, initial규모=1.0, maximum-scale=1.0, minimum규모=1.0, 사용자-scalable=아니오, target-dpi=medium-dpi">
+ <meta명="desc설명" 내용="최병근 ❤️최민경 결혼식에 초대합니다">
+ <meta="저작자" content="choi">
+ <meta="generator" 컨텐츠="Jekyll v4.1.1">
+ <meta 속성="og:url" content="https://choi-juyeon.github.io/wedding.github.io/ " />
+ <meta 속성="og:title" 컨텐츠="최병근 ❤️최민경 결혼식에 초대합니다" />
+ <meta 속성="og:type" content="website" />
+ <meta 속성="og:image" content="https://choi-juyeon.github.io/wedding.github.io/img/main.jpg " />
+ <meta 속성="og:image:width" content="552" />
+ <meta 속성="og:image:높이" 컨텐츠="800" />
+ <meta property="og:description" content="사랑으로 물들어가는 계절, 연인에서 부부라는 이름으로 평생을 함께 하고자 합니다." />
+ <meta명="format-detection" 컨텐츠="telephone=아니오" />
+ <title>최병근❤️최민경 의 모바일 청첩장</title>
+    <!-- 부트스트랩 코어 CSS -->
+ <link rel="스타일시트" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css " integrity="sha384-JcKb8q3iqJ61gNV9KGB8thSNjpSL0n8pARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ <스타일>
+        .bd-자리 표시자-img {
+ 글꼴 크기: 1.125rem;
+ 텍스트-anchor: 중간;
+ -webkit-user-select: 없음;
+ - moz-사용자-선택: 없음;
+ -ms-user-select: 없음;
+ 사용자 선택: 없음;
         }
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
+ @media (최소 너비: 768 px) {
+            .bd-자리 표시자-img-lg {
+ 글꼴 크기: 3.5rem;
             }
         }
-    </style>
+ </스타일>
 
-    <!-- Custom styles for this template -->
+    <!-- 이 템플릿에 대한 사용자 정의 스타일 -->
     <link href="css/cover.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <script
             src="https://code.jquery.com/jquery-3.5.1.min.js"
-            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-            crossorigin="anonymous"></script>
+ integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+ crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
     <script>
-        var wow = new WOW(
             {
+ boxClass: 'wow', // 애니메이션 요소 css class (기본값은 wow)
                 boxClass:     'wow',      // animated element css class (default is wow)
                 animateClass: 'animated', // animation css class (default is animated)
                 offset:       80,          // distance to the element when triggering the animation (default is 0)
                 mobile:       true,       // trigger animations on mobile devices (default is true)
                 live:         true,       // act on asynchronously loaded content (default is true)
                 scrollContainer: null,    // optional scroll container selector, otherwise use window,
-                resetAnimation: true,     // reset animation on end (default is true)
             }
+ );
         );
         wow.init();
-
+ $(document).준비(기능 () {
         $(document).ready(function() {
             let date = new Date(2024, 04, 28);
             let currentDate = new Date();
+ 결과 = 날짜 - 현재 날짜;
+ misec = 24 * 60 * 60 * 1000;
 
-            let result = date - currentDate;
-            let misec = 24 * 60 * 60 * 1000;
+            결과 = (result <= 0? 0 : (parseInt(결과/misec) + 1);
 
-            result = (result <= 0)? 0 : (parseInt(result / misec) + 1);
-
-            $("#d-day").html(result);
+ $("#d-day"). html(result);
         });
-    </script>
-</head>
+ </스크립트>
+</머리>
 <body class="text-center">
 <div class="top-div">
-    <header class="inner cover cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <h1 class="wow fadeIn cover-heading" style="text-align: right; margin-top: 0.5em; margin-right: 0.5em; font-size: 2rem;">
-            <span style="letter-spacing : -0.13em; margin-right: 0.1em">⎽⎽</span><br/>
+ <header 클래스="inner커버-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+ <h1 class="wow fadeIn cover-heading" style="text-align: right; margin-top: 0.5em; margin-right: 0.5em; font-size: 2rem;">
+ <span style="글자-spacing : -0.13em; 여백-우측 : 0.1em">⎽⎽</span><br/>
             04 <br/>
             月 <br/>
             28 <br/>
             日 <br/>
-            <span style="letter-spacing : -0.13em; margin-right: 0.1em;">⎺⎺</span>
-        </h1>
-    </header>
-    <main role="main" class="inner">
-        <div class="wow fadeInUp">
-            <p class="top-title">최병근 · 최민경</p>
-            <p class="top-title-sub">4월 28일 일요일 오후 1시</p>
-            <p class="top-title-sub">CA웨딩컨벤션 블리스홀</p>
-            <br/><br/><br/>
-            <hr class="cover-container"/>
+ <span style="글자-spacing : -0.13em; 여백-오른쪽 : 0.1em;">⎺⎺<span>
+ </h1>
+ </header>
+ <메인롤="메인" 클래스="inner">
+ <div class="wow fadeInUp">
+ <p class="탑-title">최병근·최민경</p>
+ <p class="탑-title-서브">월 28일 일요일 오후 1시</p>
+ <p class="top-title-sub">CA웨딩컨벤션 블리스홀</p>
+ <br/><br/><br/>
+ <hr class="커버-container"/>
             <br/>
-        </div>
-        <div class="wow fadeInUp">
-            <p class="section1-title section1-main">
+ </div>
+ <div class="wow fadeInUp">
+ <p class="section1-titlesection1-메인">
                 예쁜 예감이 들었다 <br/>
                 우리는 언제나 손을 잡고 있게 될 것이다.
                 <br/><br/>
@@ -423,7 +422,7 @@
                             <div class="card-body section6-location-sub">
                                 1. 오전 8시 부산역 3번출구 앞 출발<br/>
                                 2. 오전 9시 서창초 앞 출발 <br/>
-                            </div>
+ </div>
                         </div>
                     </div>
                     <div class="card">
@@ -433,16 +432,13 @@
                                     자가용 이용 시
                                 </button>
                             </h2>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body section6-location-sub">
+ <div class="카드-바디 섹션6-위치-서브">
                                 충청남도 아산시 배방읍 희망로, 100 (장재리 364-4)<br/>
-                                ※ 주차 2시간 무료 / 안내데스크에서 등록 필요<br/>
+                                ※ 주차 2시간 무료 - 안내데스크에서 등록 필요<br/>
+ </div>
                                 ※ 선하민영주차장, 장재리 제1공영주차장, 광장1주차장, 광장2주차장 이용<br/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
+ </div>
+ <div class="card">
                         <div class="card-header" id="headingThree">
                             <h2 class="mb-0">
                                 <button class="section6-location section6-location-main btn btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -453,21 +449,20 @@
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body section6-location-sub">
                                 1호선 아산역, KTX천안아산역 역사 내 2층
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br/><br/>
-        </div>
-        <hr class="cover-container"/>
-        <br/>
-        <p class="wow fadeInUp section2-title section2-main inner cover cover-container d-flex w-100 h-100 p-5 mx-auto flex-column">
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <br/><br/>
+ </div>
+ <hr class="커버-container"/>
+ <br/>
+ <p class="wow fadeInUp 섹션2-title 섹션2-메인내부커버-container d-flex w-100 h-100 p-5 mx-auto flex-column">
             환경보호 동참을 위해<br/>
             축하화환은 정중히 사양하겠습니다.
-        </p>
-<!--
-        <p class="wow fadeInUp section2-title section2-sub inner cover cover-container d-flex w-100 h-100 p-2 mx-auto flex-column">
+ </p>
+        <p class="wow fadeInUp section2-title section2-sub inner cover-container d-flex w-100 h-100 p-2 mx-auto flex-column">
             <br/>
             환경보호 동참을 위해<br/>
             축하화환은 정중히 사양하겠습니다.<br/>
@@ -475,17 +470,17 @@
             신랑 최병근 · 신부 최민경 올림
         </p>
 -->
-        <br/><br/><br/><br/>
+ <br/><br/><br/><br/>
 
-        <footer class="pt-5 text-muted text-center text-small section8">
-            <p class="mb-1">© 2024-04-28 CBG, CMK</p>
-            <br/><br/>
-            <br/><br/>
-        </footer>
-    </main>
+ <footer class="pt-5 text-muted text-center text-small section8">
+ <p class="mb-1">© 2024-04-28 CBG, CMK</p>
+ <br/><br/>
+ <br/><br/>
+ </발가락>
+ </메인>
 </div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSS5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js @1.16.1/dist/umd/popper.min.js" 무결성="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFffPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</신체>
 </html>
