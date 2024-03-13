@@ -229,7 +229,6 @@ header {
   content: "";
   background-image: url("../img/section2.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: right;
   opacity: 0.6;
   position: absolute;
