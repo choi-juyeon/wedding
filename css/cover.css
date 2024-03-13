@@ -497,10 +497,11 @@ header {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   margin-bottom: 0.7em;
+  text-align:center;
 }
 .foldable-content {
    display: none;
-	text-align: center;
+   text-align: center;
 }
 .foldable-button {
    cursor: pointer;
@@ -513,6 +514,7 @@ header {
    padding-top: 0.5em;
    padding-bottom: 0.5em;
    margin-bottom: 0.7em;
+   text-align:center;
 }
 
 .foldable-button.pink {
