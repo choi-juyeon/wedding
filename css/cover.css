@@ -514,7 +514,7 @@ header {
    padding-top: 0.5em;
    padding-bottom: 0.5em;
    margin-bottom: 0.7em;
-   text-align:center;
+   isplay: inline-block;
 }
 
 .foldable-button.pink {
@@ -522,9 +522,10 @@ header {
 }
 .foldable-text{
 	  font-family: NanumMyeongjo-b;
-	text-align: center;
 	  line-height: 1.5em;
 	  color: #333;
+	  display: inline-block;
+	  text-align: center;
 }
 .copy-icon {
     cursor: pointer;
