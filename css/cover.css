@@ -500,6 +500,7 @@ header {
 }
 .foldable-content {
    display: none;
+	text-align: center;
 }
 .foldable-button {
    cursor: pointer;
@@ -518,7 +519,8 @@ header {
    background-color: #FF99CC;
 }
 .foldable-text{
-	  font-family: NanumMyeongjo-b
+	  font-family: NanumMyeongjo-b;
+	text-align: center;
 	  line-height: 1.5em;
 	  color: #333;
 }
