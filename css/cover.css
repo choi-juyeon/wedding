@@ -225,7 +225,7 @@ header {
 
 .section2-main::after {
   width:100%;
-  height:100%;
+  height:50%;
   content: "";
   background-image: url("../img/section2.jpg");
   background-size: cover;
@@ -498,6 +498,7 @@ header {
   margin-bottom: 0.7em;
   text-align:center;
 }
+
 .foldable-content {
    display: none;
    text-align: center;
@@ -513,7 +514,9 @@ header {
    padding-top: 0.5em;
    padding-bottom: 0.5em;
    margin-bottom: 0.7em;
-   isplay: inline-block;
+   display: block; /* 버튼을 블록 레벨 요소로 변경하여 가로폭을 차지하도록 합니다. */
+    margin: 0 auto; /* 가운데 정렬을 위해 좌우 여백을 자동으로 설정합니다. */
+    text-align: center; /* 버튼 내의 텍스트를 가운데 정렬합니다. */
 }
 
 .foldable-button.pink {
