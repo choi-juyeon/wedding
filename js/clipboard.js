@@ -163,3 +163,40 @@ class Clipboard extends Emitter {
 }
 
 export default Clipboard;
+
+
+$(document).ready(function(){
+//계좌보기 슬라이드
+$('#btn .view').click(function(){
+$('#btn .view .check').toggleClass('rotate_img');
+$('#slideTogglebox').slideToggle();
+})
+$('.m_stop').click(function(){
+$(this).hide();
+
+function copy_to_clipboard() {
+var copyText = document.getElementById("myInput");
+copyText.select();
+document.execCommand("Copy");
+console.log('Copied!');
+}
+function copy_to_clipboard2() {
+var copyText = document.getElementById("myInput2");
+copyText.select();
+document.execCommand("Copy");
+console.log('Copied!');
+}
+function copy_to_clipboard3() {
+var copyText = document.getElementById("myInput3");
+copyText.select();
+document.execCommand("Copy");
+console.log('Copied!');
+}
+
+$('.m_gogo').show();
+})
+$('.m_gogo').click(function(){
+$(this).hide();
+$('.m_stop').show();
+})
+})
