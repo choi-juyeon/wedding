@@ -534,7 +534,10 @@ header {
     height: 20px;
     vertical-align: middle;
 }
-	
+
+.justify-content-center{
+	display: flex; justify-content: center;
+}
 /*
  * Cover
  */
